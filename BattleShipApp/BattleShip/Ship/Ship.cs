@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace BattleShip.Ship
 {
-    internal abstract class Ship
+    public abstract class Ship : IShip
     {
         public abstract string Name { get; set; }
         public abstract int Length { get; set; }
-        public abstract List<Position> Position { get; set; }
+        public abstract List<Coordinate> Coordinate { get; set; }
+
+        public abstract void CreateShip();
 
     }
 }

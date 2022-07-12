@@ -6,15 +6,17 @@ using System.Threading.Tasks;
 
 namespace BattleShip
 {
-    internal class Position
+    public class Coordinate
     {
         public int X { get; set; }
         public int Y { get; set; }
+        public bool IsAvaiable { get; set; }
 
-        public Position(int x, int y)
+        public Coordinate(int x, int y)
         {
             X = x;
             Y = y;
+            IsAvaiable = true;
         }
     }
 }

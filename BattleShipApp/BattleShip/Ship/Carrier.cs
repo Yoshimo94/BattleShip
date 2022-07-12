@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace BattleShip.Ship
 {
-    internal class Carrier : Ship
+    public class Carrier : Ship
     {
         public override string Name { get; set; } = "Carrier";
         public override int Length { get; set; } = 5;
-        public override List<Position> Position { get; set; }
+        public override List<Coordinate> Coordinate { get; set; }
     }
 }

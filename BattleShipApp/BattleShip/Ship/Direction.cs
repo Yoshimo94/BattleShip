@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BattleShip
+namespace BattleShip.Ship
 {
-    public class BattleShipApp
+    public enum Direction
     {
+        Left,
+        Right,
+        Up,
+        Down
     }
 }

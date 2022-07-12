@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BattleShip
+namespace BattleShip.Ship
 {
-    public class BattleShipApp
+    public interface IShip
     {
+        void CreateShip();
     }
 }
