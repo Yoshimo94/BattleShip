@@ -6,7 +6,7 @@ namespace ShipsGame
     {
         public ShipType ShipType { get; }
         public List<Coord> ShipPoints { get; }
-        public bool IsDestroyed { get; }
+        public bool IsDestroyed { get; set; }
 
         public Ship(ShipType shipType, List<Coord> shipPoints)
         {

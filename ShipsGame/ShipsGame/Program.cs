@@ -4,3 +4,15 @@ using ShipsGame;
 
 var app = new App();
 app.StartGame();
+app.StartGame();
+app.StartGame();
+app.StartGame();
+app.StartGame();
+app.StartGame();
+app.StartGame();
+app.StartGame();
+app.StartGame();
+app.StartGame();
+
+
+
